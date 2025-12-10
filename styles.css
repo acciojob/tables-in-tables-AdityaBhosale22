@@ -1,2 +1,40 @@
+.main-table {
+            width: 80%;
+            border: 5px double black; /* Outer thick border */
+            border-collapse: separate;
+            border-spacing: 0; /* Ensures inner borders touch outer borders cleanly */
+            margin: 20px auto;
+        }
 
-/* Your CSS Code here. */
+        .main-table td {
+            border: 2px solid black; /* Separator lines between the cells */
+            padding: 10px;
+            vertical-align: top; /* Aligns content to the top of the cell */
+        }
+
+        /* Styling for all Nested Tables */
+        .nested-table {
+            width: 100%;
+            border: 3px double black; /* Double border for nested tables */
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .nested-table td, .nested-table th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        /* Specific styles for Nested Table 4's content */
+        .nested-table-4-content {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        /* Styling for the purple link text */
+        .purple-link {
+            color: purple;
+            text-decoration: underline;
+        }
